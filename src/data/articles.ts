@@ -123,7 +123,7 @@ export const articles: Article[] = [
     content: `
       July 2026, 1st Edition.
 
-      This edition brings together major developments in Indian public policy and domestic affairs alongside key international stories from around the world. The article is organised as a monthly digest with grouped section headings and image-led story entries to match the source document while staying inside the site’s existing reading experience.
+      This edition brings together major developments in Indian public policy and domestic affairs alongside key international stories from around the world. The article is organised as a weekly digest with grouped section headings and image-led story entries to match the source document while staying inside the site’s existing reading experience.
     `,
     sections: [
       {
