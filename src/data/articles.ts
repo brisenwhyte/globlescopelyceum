@@ -269,11 +269,257 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    id: 8,
+    category: 'Politics',
+    image: '/august/1.jpg',
+    title: 'OUR HOME, THE GLOBE AND AROUND, IN A GLANCE',
+    description: 'August 2026 edition covering major domestic policy shifts, global diplomacy, and regional security developments.',
+    author: 'Editorial Desk',
+    date: 'Aug 23, 2026',
+    readTime: '20 min read',
+    content: `
+      August 2026, 2nd Edition.
+
+      This issue brings together major policy updates from India and the wider world, with a focus on governance reforms, public health safeguards, infrastructure, and regional security trends across Asia, the Middle East, Africa, and Europe.
+    `,
+    sections: [
+      {
+        heading: 'Public Policy and Domestic Affairs',
+        stories: [
+          {
+            title: 'Removal of 2 Year Age Gap for Maternity Leave',
+            image: '/august/1.jpg',
+            alt: 'Cabinet approval and maternity leave policy reform',
+            caption: 'Source: Hindustan Times',
+            credit: 'Hindustan Times',
+            paragraphs: [
+              'The Uttar Pradesh Cabinet, chaired by Chief Minister Yogi Adityanath, approved key decisions including removing the mandatory two-year age gap condition for female state government employees to take up to 180 days of maternity leave for their first two children, aligning state policy with recent Allahabad High Court rulings.'
+            ]
+          },
+          {
+            title: 'India Bans Cold Medicines for Children under Four Due to Health Risks',
+            image: '/august/2.jpg',
+            alt: 'Health official warning against cold medicines for young children',
+            caption: 'Source: Economic Times',
+            credit: 'Economic Times',
+            paragraphs: [
+              'The Indian Drug Regulatory Authorities prohibited the use of specific anti-cold fixed dose drug combinations such as chlorpheniramine maleate and phenylephrine hydrochloride drops and syrups for children under four years of age.',
+              'Prompted by safety concerns and recommendations from expert advisory committees regarding potential adverse health risks, manufacturers have been mandated to feature clear warning labels stating that these formulations must not be administered to infants and young children.'
+            ]
+          },
+          {
+            title: 'Karnataka Enforces One-Year Ban on Fake Paneer Sold as Genuine Dairy Paneer',
+            image: '/august/3.jpg',
+            alt: 'Food safety enforcement against fake paneer',
+            caption: 'Source: Times of India',
+            credit: 'Times of India',
+            paragraphs: [
+              'The Karnataka Food Safety and Drugs Administration has issued a state-wide notification banning the manufacture, processing, storage, transport and sale of “analogue” or non-dairy paneer under the label “paneer” for one year.',
+              'Under the Food Safety and Standards Act, 2006, paneer is strictly defined as a standardised milk-based product; replacing milk fat or milk solids with vegetable oils or starches classifies the substitute as an analogue. Officials clarified that while recent sample testing in the state showed no adulteration, the ban is a preventive measure to protect consumers.'
+            ]
+          },
+          {
+            title: 'Uttar Pradesh and Japan’s Yamanashi Sign Four MOUs; 600-Crore Fund Announced to Boost Local MSMEs',
+            image: '/august/4.jpg',
+            alt: 'Uttar Pradesh and Yamanashi investment partnership',
+            caption: 'Source: The Hindu',
+            credit: 'The Hindu',
+            paragraphs: [
+              'The Uttar Pradesh Government signed four Memoranda of Understanding with Japan’s Yamanashi Prefecture to enhance collaboration in skill development, technical training, tourism and the set-up of a Japanese Global Capability Centre in Noida and Greater Noida.',
+              'To support this partnership, Yamanashi announced a ₹600 crore fund dedicated to assisting Micro, Small and Medium Enterprises investing in the state, while Chief Minister Yogi Adityanath confirmed the establishment of a specialised “Yamanashi Desk” at Invest UP with a 90-day review mechanism to streamline approvals and fast-track investments.'
+            ]
+          },
+          {
+            title: 'Government Launches Phase II of Rural Entrepreneurship Campaign to Boost Women-led Enterprises and “Lakhpati Didi” Goal',
+            image: '/august/5.jpg',
+            alt: 'Rural entrepreneurship campaign for women-led enterprises',
+            caption: 'Source: Business Standard',
+            credit: 'Business Standard',
+            paragraphs: [
+              'The Ministry of Rural Development has launched the second phase of its three-month “National Campaign on Entrepreneurship-II” under the Deendayal Antyodaya Yojana-National Rural Livelihoods Mission (DAY-NRLM) to transform rural women’s livelihood activities into sustainable farm and non-farm enterprises.',
+              'Running from August 21 to November 21, 2026, the campaign supports the government’s target of creating six crore “lakhpati didis” by providing entrepreneurship training to five lakh Self-Help Group women and formalizing 50,000 rural enterprises.'
+            ]
+          },
+          {
+            title: 'Government of India to Launch Reform Utsav to Capture Citizen Suggestions',
+            image: '/august/6.jpeg',
+            alt: 'Reform Utsav campaign illustration',
+            caption: 'Source: Government release',
+            credit: 'Government of India',
+            paragraphs: [
+              'The Union government will launch Reform Utsav on October 2, a three-month campaign sparked by student protests over the NEET paper leak. The initiative aims to gather citizen suggestions and convert them into actionable, implemented reforms.',
+              'It is headed by Cabinet Secretary T V Somanathan. The campaign will operate across three levels: “Jan Manthan” to collect portal-based public ideas sorted using AI, “Vimarsh” to identify quick-win reforms and structural roadmaps, and “Samadhan and Sankalp Siddhi” featuring bi-weekly progress reviews.'
+            ]
+          },
+          {
+            title: 'Decline in Person-Days in the First Month of the VB-G RAM G Scheme',
+            image: '/august/7.jpg',
+            alt: 'Rural employment scheme worker at worksite',
+            caption: 'Source: India Today',
+            credit: 'India Today',
+            paragraphs: [
+              'On July 1, 2026, the Indian government transitioned from the Mahatma Gandhi National Rural Employment Guarantee Scheme to the newly launched Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin), or VB-G RAM G. July employment generation fell 49.94% year-on-year to 7.67 crore person-days.',
+              'Active households dropped from 51.45% to 68.94 lakh, hitting a five-year low despite erratic monsoons that usually drive labour demand. While the new scheme offers higher wages and extends guaranteed work to 125 days, it also includes a statutory 60-day pause on employment guarantees during peak sowing and harvesting seasons, which officials identify as the main reason for the decline.'
+            ]
+          },
+          {
+            title: 'Audit Reports Reveal Only 0.01 per cent of ₹8,452 Crore of PM-CARES Fund Spent',
+            image: '/august/8.jpg',
+            alt: 'PM CARES audit and public finance scrutiny',
+            caption: 'Source: Public audit reports',
+            credit: 'Audit Reports',
+            paragraphs: [
+              'The PM-CARES Fund audit reports reveal its corpus grew to a record ₹8,452 crore as of March 31, 2025. However, the fund spent a minuscule ₹87.85 lakh (0.01% of available funds) in FY 2024-25.',
+              'It was directed entirely to the “PM CARES for Children” scheme, a steep drop from the ₹15.37 crore spent on the same initiative in FY 2023-24. The fund generated around ₹475 crore in interest by keeping ₹6,641.56 crore in fixed deposits and also received an unexplained ₹324 crore refund from implementing agencies.'
+            ]
+          },
+          {
+            title: 'Tamil Nadu Hosts India’s First Scope-2 Emission-Free Major Port',
+            image: '/august/9.jpg',
+            alt: 'Cargo port with renewable infrastructure',
+            caption: 'Source: Port Authority reporting',
+            credit: 'V.O. Chidambaranar Port Authority',
+            paragraphs: [
+              'The V.O. Chidambaranar Port Authority in Thoothukudi has become India’s first Scope-2 emission-free major port and the first to earn ISO 50001:2018 certification from Bureau Veritas.',
+              'In 2025-26, renewable energy made up 93.89% of its total electricity consumption. Led by chairperson Susanta Kumar Purohit, the port systematically manages energy across cargo handling, shore-to-ship power, and electric vehicle charging infrastructure.'
+            ]
+          },
+          {
+            title: 'Karnataka Apartment Bill Introduces Rules for Common Areas, RWAs, Redevelopment and Disputes in Apartment Complexes',
+            image: '/august/10.jpg',
+            alt: 'Karnataka apartment and housing reform',
+            caption: 'Source: Legislative assembly briefing',
+            credit: 'Karnataka Assembly',
+            paragraphs: [
+              'The Karnataka Legislative Assembly passed two key pieces of legislation without discussion amid Opposition protests. The Karnataka Apartment (Ownership and Management) Bill, 2026, piloted by Bengaluru Development Minister Krishna Byre Gowda, aims to resolve ongoing property disputes by clarifying the ownership, management, and transfer of common areas from builders.',
+              'Under this law, all Resident Welfare Organizations must be formed in accordance with new rules, and the bill establishes a 75% consent threshold for reconstruction of old or unsafe apartments. Residents who dissent are guaranteed compensation worth twice the value of their property.'
+            ]
+          }
+        ]
+      },
+      {
+        heading: 'International Relations and Affairs around the world',
+        stories: [
+          {
+            title: 'Tunisia: Anti-government Protests Enter Second Month',
+            image: '/august/11.jpg',
+            alt: 'Tunisia protest crowd with flags',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              'Hundreds of Tunisians protested in the capital, Tunis, on August 20, demanding President Kais Saied’s resignation and the restoration of democracy. The demonstrations, organised by the newly formed opposition Nafas movement, mark a second consecutive month of protests amid growing political and economic discontent.',
+              'Protesters criticised Saied’s concentration of power following his 2021 suspension of parliament and subsequent rule by decree, calling for the release of jailed opposition figures, activists and journalists. The unrest is also being driven by worsening living conditions, including rising costs, shortages of medicines and basic goods, and disruptions to water and electricity supplies.'
+            ]
+          },
+          {
+            title: 'US Military Redeployment Raises Concerns Among Asian Allies, Amid West Asian Tensions',
+            image: '/august/12.jpg',
+            alt: 'US aircraft carrier deployment in the region',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              'The United States’ decision to shift military assets from the Asia-Pacific to support its ongoing war with Iran is raising concerns among regional allies about Washington’s ability to deter China.',
+              'The latest move saw the USS George Washington, the last US aircraft carrier based in Asia, redeployed from Japan to the Middle East to relieve the USS Abraham Lincoln, which has been deployed there for nine months.'
+            ]
+          },
+          {
+            title: '“Double Cash Reward” for Women to Kill American Troops, Says Amir Hatami',
+            image: '/august/13.jpg',
+            alt: 'Iranian military chief speaking at a public briefing',
+            caption: 'Source: VOA',
+            credit: 'VOA',
+            paragraphs: [
+              'Multiple sources report that Iranian Army Chief Amir Hatami has announced a potential “war bounty” of $60,000 for any woman who kills or captures US military personnel, amid escalating tensions in West Asia.',
+              'The announcement comes amid strong Iranian warnings against any US involvement on Iranian soil and earlier summer offers of $30,000 bounties. Hatami said the increased reward for women was introduced following a “large number of requests” from those seeking to participate.'
+            ]
+          },
+          {
+            title: 'Peru Rocked by Strong Earthquake; Initial Reports Remain Optimistic',
+            image: '/august/14.jpg',
+            alt: 'Strong earthquake damage in Peru',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              'A strong earthquake struck Peru’s southern Ayacucho region on August 23, with the US Geological Survey recording a magnitude of 6.7. The earthquake occurred at around 1:00 p.m. local time at a depth of approximately 100 kilometres, causing significant tremors in the small settlement of Aniso.',
+              'Peruvian officials reported three injuries and infrastructure damage, although no serious injuries have been reported so far. Defence Minister Rafael Belaunde said 22 homes were damaged and ten healthcare facilities sustained damage, though medical services remain operational.'
+            ]
+          },
+          {
+            title: 'Rahman’s Visit Uncertain Amid Diplomatic Strains',
+            image: '/august/15.jpg',
+            alt: 'Bangladesh and India diplomatic meeting or delegation scene',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              'Uncertainty surrounds Bangladesh Prime Minister Tarique Rahman’s reported visit to India, amid renewed strains in India–Bangladesh relations. Tensions increased after former Bangladeshi Prime Minister Sheikh Hasina, currently in exile in India, held a virtual media interaction in early August.',
+              'Rahman’s visit was reportedly scheduled for August 23–24 following an invitation from India’s Ministry of External Affairs for a bilateral engagement and participation in the BRICS outreach session in New Delhi. However, neither Dhaka nor New Delhi has officially confirmed the visit.'
+            ]
+          },
+          {
+            title: 'Putin’s Kuril Islands Visit Escalates Japan–Russia Tensions',
+            image: '/august/16.jpg',
+            alt: 'Putin meeting with local officials in the Kuril Islands',
+            caption: 'Source: The Moscow Times',
+            credit: 'The Moscow Times',
+            paragraphs: [
+              'Russian President Vladimir Putin’s visit to Iturup, one of the disputed Kuril Islands, has intensified tensions with Japan. Tokyo regards the southern Kurils as its “Northern Territories” and claims four islands the Soviet Union seized in 1945.',
+              'Japan condemned the visit, while Moscow reaffirmed its sovereignty. Russia has also strengthened its military presence in the Kurils, increasing their strategic importance in the Northern Pacific.'
+            ]
+          },
+          {
+            title: 'Myanmar Junta Chief Visits Moscow to Deepen Russia Ties',
+            image: '/august/17.jpg',
+            alt: 'Myanmar leader and Russian president handshake at summit',
+            caption: 'Source: Al Arabiya',
+            credit: 'Al Arabiya',
+            paragraphs: [
+              'Myanmar’s President Min Aung Hlaing visited Moscow for talks with Russian President Vladimir Putin, focusing on energy, infrastructure and bilateral cooperation.',
+              'Russia has remained one of the Myanmar military’s principal international partners since the 2021 coup, providing military equipment, diplomatic support and economic assistance despite Western sanctions and criticism.'
+            ]
+          },
+          {
+            title: 'Taipei Slams China and Indonesia Joint Naval Drills near Waters East of Taiwan',
+            image: '/august/18.jpg',
+            alt: 'Naval drills near Taiwan with Chinese and Indonesian vessels',
+            caption: 'Source: Indonesia Business Post',
+            credit: 'Indonesia Business Post',
+            paragraphs: [
+              'China and Indonesia have expanded defence cooperation through joint naval exercises involving Chinese and Indonesian vessels in waters east of Taiwan.',
+              'Indonesia described the activities as routine and not directed against any third country. Beijing and Jakarta have also agreed to strengthen military cooperation through additional exercises, personnel exchanges and defence engagement.'
+            ]
+          },
+          {
+            title: 'Colombia Recognises Moroccan Sovereignty over Western Sahara',
+            image: '/august/19.jpg',
+            alt: 'Colombian and Moroccan diplomatic meeting scene',
+            caption: 'Source: The Gulf Observer',
+            credit: 'The Gulf Observer',
+            paragraphs: [
+              'Colombia has shifted its position on the Western Sahara dispute by recognising Moroccan sovereignty over the territory and freezing its previous recognition of the Sahrawi Arab Democratic Republic. The move reverses the policy pursued under former President Gustavo Petro.',
+              'Bogotá stated that it would no longer maintain political or diplomatic contact with the SADR or support it in multilateral forums. The decision is significant because Colombia is serving as a UN Security Council member in 2026.'
+            ]
+          },
+          {
+            title: 'Pakistan, Saudi Arabia and Türkiye Sign Makkah Joint Defence Agreement',
+            image: '/august/20.jpg',
+            alt: 'Defense leaders from Pakistan, Saudi Arabia and Türkiye in a meeting',
+            caption: 'Source: Chatham House',
+            credit: 'Chatham House',
+            paragraphs: [
+              'Pakistan, Saudi Arabia and Türkiye signed the Makkah Joint Defence Agreement on 7 August 2026, establishing a framework for trilateral security cooperation. The agreement provides that an attack on one member would be considered an attack on all three.',
+              'The pact comes amid heightened instability in West Asia and uncertainty over regional security. Saudi Arabia contributes financial and strategic influence, Türkiye provides military and defence-industrial capabilities, while Pakistan brings military expertise and longstanding defence ties with Riyadh.'
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
 
 export const featuredArticle: Article = {
-  ...articles.find((article) => article.id === 7)!,
+  ...articles.find((article) => article.id === 8)!,
   category: 'Featured Post',
   featured: true,
 };
