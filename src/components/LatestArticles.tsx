@@ -7,10 +7,16 @@ const LatestArticles = () => {
 
   const filters = ['All', 'Politics', 'Culture', 'Podcast'];
 
+  const getArticleTime = (date: string) => new Date(date).getTime();
+
   const filteredArticles =
     activeFilter === 'All'
       ? articles
       : articles.filter((article) => article.category === activeFilter);
+
+  const sortedArticles = [...filteredArticles].sort(
+    (firstArticle, secondArticle) => getArticleTime(secondArticle.date) - getArticleTime(firstArticle.date)
+  );
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -37,7 +43,7 @@ const LatestArticles = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredArticles.map((article) => (
+          {sortedArticles.map((article) => (
             <ArticleCard key={article.id} article={article} />
           ))}
         </div>

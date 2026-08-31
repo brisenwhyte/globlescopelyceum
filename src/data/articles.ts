@@ -515,11 +515,185 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    id: 9,
+    category: 'Politics',
+    image: '/augustfinal/Picture1.png',
+    title: 'Our Home, the Globe and Around, in a Glance',
+    description: 'August 2026 Final Edition covering public policy, domestic affairs, and major international developments.',
+    author: 'Editorial Desk',
+    date: 'Aug 31, 2026',
+    readTime: '22 min read',
+    content: `
+      August 2026, Final Edition.
+
+      This edition brings together major public policy and domestic affairs stories from India alongside international developments across Europe, Africa, Asia, and the Americas.
+    `,
+    sections: [
+      {
+        heading: 'Public Policy and Domestic Affairs',
+        stories: [
+          {
+            title: 'FSSAI Proposed Warning Labels on Packaged Foods',
+            image: '/augustfinal/Picture1.png',
+            alt: 'Packaged foods displayed on shelves for nutrition warning label coverage',
+            caption: 'Source: The Indian Express',
+            credit: 'The Indian Express',
+            paragraphs: [
+              `The Food Safety and Standards Authority of India (FSSAI) has submitted a compliance affidavit to the Supreme Court proposing a new front-of-pack nutrition labeling (FoPNL) system. A red-coloured hexagonal warning label will appear on packaged foods that exceed ICMR-NIN thresholds for two or more nutrients of concern: added saturated fat, added sugar, and salt. The rollout will be phased, starting with products high in two or more of these nutrients before expanding to single-nutrient foods. Single-ingredient foods and items that are naturally high in fat, sugar, or salt, such as ghee, salt, jaggery are exempted. The proposal follows an August 13 order by a Supreme Court bench, comprising Justices J B Pardiwala and K Vinod Chandran, criticizing FSSAI over delays in implementing warning labels.`
+            ]
+          },
+          {
+            title: 'Indian Financial Regulators to Step Up the Vigil on Cybersecurity',
+            image: '/augustfinal/Picture2.png',
+            alt: 'SEBI and RBI buildings representing Indian financial regulators',
+            caption: 'Source: The Indian Express',
+            credit: 'The Indian Express',
+            paragraphs: [
+              `India's financial regulators, SEBI and RBI, are rapidly tightening cybersecurity frameworks against AI-driven fraud and critical infrastructure threats. Starting in early 2027, SEBI will implement an IT Resilience Index to evaluate the cyber readiness of market infrastructure institutions (MIIs) on a half-yearly basis across nine parameters like security, governance, reliability/monitoring, etc. Additionally, SEBI has also drafted AI guidelines and standardized incident reporting.`,
+              `Simultaneously, RBI has mandated board-level risk ownership, dedicated IT risk committees, and a strict six-hour window for reporting cyber incidents. The RBI will now cover modern digital scams under consumer fraud compensation and is evaluating user-controlled "kill switches" that would allow consumers to instantly halt all financial transactions on their accounts when fraud is suspected.`,
+              `Experts caution that traditional, periodic assessments are insufficient as AI significantly speeds up attacks. Regulators need to shift their focus toward continuous testing, AI-specific threat modeling, and technology-neutral accountability backed by technology-specific safeguards.`
+            ]
+          },
+          {
+            title: '61% of Children in India Face One Extra Month of Heat Stress, New Study Reveals',
+            image: '/augustfinal/Picture3.png',
+            alt: 'Children outdoors during hot weather in India',
+            caption: 'Source: Scroll.in',
+            credit: 'Scroll.in',
+            paragraphs: [
+              `A study in Science Advances, led by Vrije Universiteit Brussel, reveals that human-induced climate change disproportionately exposes young children to dangerous humid heat stress. Globally, 43% of children aged 0-9 (560 million) experience at least one additional month of heat stress annually. In India, 61% of children (145 million) already face this threat. Under projected global warming scenarios, this exposure is set to escalate rapidly. At 2°C warming: Affected children climbs to 96% (169 million). Children in developing, tropical regions like South Asia, Southeast Asia, and West Africa, are most vulnerable due to compounding factors like poverty and limited cooling, despite contributing minimally to global emissions.`
+            ]
+          },
+          {
+            title: 'Government of India Launches “Mission Samriddh Gaon”',
+            image: '/augustfinal/Picture4.jpg',
+            alt: 'Mission Samriddh Gaon launch coverage with rural development scene',
+            caption: 'Source: DD India',
+            credit: 'DD India',
+            paragraphs: [
+              `Union Rural Development and Agriculture Minister Shivraj Singh Chouhan launched the Mission Samridh Gaon Yojana in New Delhi, aimed at developing prosperous, self-reliant and poverty-free villages. The mission seeks to establish a comprehensive and integrated model of rural development, with a focus on ensuring employment and livelihood opportunities for every rural household alongside access to basic amenities. The initiative will initially be implemented as a pilot in Budhni block of Sehore district and Khategaon block of Dewas district in Madhya Pradesh, with successful models intended to be replicated elsewhere. The mission will promote convergence of Central and state government schemes across agriculture, livelihoods, healthcare, education, employment and infrastructure. It will also encourage diversified agricultural activities, including horticulture, livestock, fisheries, poultry and beekeeping, alongside food processing and value addition.`
+            ]
+          },
+          {
+            title: 'Jal Shakti Ministry Unveils Data Sharing Framework Under Sujalam Bharat DPI',
+            image: '/augustfinal/Picture5.jpg',
+            alt: 'Officials meeting for Sujalam Bharat data sharing framework',
+            caption: 'Source: DD India',
+            credit: 'DD India',
+            paragraphs: [
+              `On 20 August 2026, the Department of Drinking Water and Sanitation (DDWS), Ministry of Jal Shakti, issued the Policy on Data Sharing, Interoperability and Stakeholder Access under Sujalam Bharat Digital Public Infrastructure (DPI). The policy establishes a secure, federated and interoperable framework for governing and sharing rural drinking-water data among the Centre, States, Union Territories, Gram Panchayats and authorized sectoral stakeholders. It promotes common identifiers, standardized metadata, interoperable digital registries and secure digital services to facilitate seamless data exchange while maintaining institutional accountability, privacy and cybersecurity. Approved stakeholders can access data through tiered, purpose-based mechanisms, supporting applications in operation and maintenance, water-quality monitoring, predictive maintenance and infrastructure management. The policy further enables the use of Artificial Intelligence-enabled analytics, geospatial planning, Digital Twins and decision-support systems, positioning Sujalam Bharat as a long-term digital foundation for transparent, efficient and sustainable rural drinking-water governance.`
+            ]
+          },
+          {
+            title: 'Centre to Launch “Kanda Express” to Transport Onions',
+            image: '/augustfinal/Picture6.jpg',
+            alt: 'Onion transport truck near railway cargo handling area',
+            caption: 'Source: ET Infra',
+            credit: 'ET Infra',
+            paragraphs: [
+              `On 24 August 2026, the Government of India plans to begin transporting onion buffer stocks from Nashik, Maharashtra, to major consumption centers through dedicated railway rakes under the “Kanda Express” initiative. The initiative is aimed at augmenting supplies and containing seasonal price pressures. The first consignments will be designated for five major markets: Chennai, Madurai, Delhi, Ernakulam and Guwahati, with additional destinations to be added according to market requirements. The intervention comes past the eve of the all-India average retail price of onions rose to ₹43.53 per kg on 24 August, a 59% year-on-year increase. The onion buffer is maintained under the Price Stabilisation Fund to address periods of sharp price escalation or seasonal shortages. The government plans to release buffer onions through both wholesale markets and targeted retail channels, with retail sales at ₹35 per kg through agencies including NAFED and NCCF.`
+            ]
+          }
+        ]
+      },
+      {
+        heading: 'International Relations and Affairs Around the World',
+        stories: [
+          {
+            title: 'New Norwegian Monarch Takes Throne; First Address Signals Democratic Optimism',
+            image: '/augustfinal/Picture7.png',
+            alt: 'New Norwegian monarch delivering a first address',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              `Norway enters a new royal era following the death of King Harald V, with his son, King Haakon VIII, assuming the throne. While public attention remains focused on mourning the late monarch, Haakon’s first address signalled to the nation the political and constitutional principles likely to shape his reign. Haakon has pledged to uphold Norway’s Constitution, democracy and equality, while seeking to preserve national unity. His emphasis on inclusion and tolerance affirms an intention to continue Harald’s socially progressive approach, particularly toward minorities and immigrants. However, Haakon VII has indicated that he will develop his own style of monarchy rather than simply replicate his father’s reign. Haakon VII’s address reveals strong intention seeking to strengthen the monarchy’s relevance within Norway’s modern constitutional democracy, positioning the institution as a unifying force rather than an overt political actor. How the new sovereign balances continuity with renewal while navigating scrutiny surrounding the royal family could define the nature of his reign.`
+            ]
+          },
+          {
+            title: 'Democratic Republic of Congo Begins Push Against Ebola as Virus Raises Potential Pandemic Concerns',
+            image: '/augustfinal/Picture8.png',
+            alt: 'Health workers in protective gear responding to Ebola in Congo',
+            caption: 'Source: Forbes',
+            credit: 'Forbes',
+            paragraphs: [
+              `The Democratic Republic of Congo government has begun vaccinating its population against its latest Ebola endemic. At present, health workers, first responders and other front-line workers are being prioritised for long term medical efficiency, with the first injections dispersed to the health workers of Kisangani city. More than 50,000 doses of the vaccine have been received, reports the Congolese Heath Ministry. It must be noted that the current vaccines are licensed for another strain of Ebola, with its effectiveness against the new Bundibugyo strain yet to be determined. Clinical trials are ongoing to find a suitable vaccine to combat the new strain, with cautious optimism. The World Heath Organisation supports the DRC initiatives by authorising the use of around 70,000 Ervebo vaccine doses in DRC, states WHO sources. As of August, The DRC Ebola endemic has claimed more than 2500 lives as recorded cases push past 5000 cases. The death toll alone makes this outbreak the deadliest in DRC history, and with present conditions pushing it along possibly one of the deadliest in African history. At present, the outbreak is concentrated in the Ituri region, sparking concerns in the neighbouring Ugandan villages.`
+            ]
+          },
+          {
+            title: 'Rampant Violence in Haiti; Gang Violence on the Eve of Elections',
+            image: '/augustfinal/Picture9.png',
+            alt: 'Armed patrol and civilians during Haiti security crisis',
+            caption: 'Source: United Nations News',
+            credit: 'United Nations News',
+            paragraphs: [
+              `At least 47 people have been killed and more than 50 kidnapped in a violent gang raid in Kenscoff, a community overlooking Haiti’s capital, Port-au-Prince, according to the United Nations. The attack, one of the country’s largest mass kidnappings in recent years, also injured 22 people and forced thousands of residents to flee their homes. The assault has intensified concerns over the Haitian government’s ability to protect civilians as armed gangs continue expanding their influence. The attackers reportedly threatened to execute hostages if security forces targeted gang members. The violence comes despite efforts to strengthen security and establish a UN-backed Gang Suppression Force.`,
+              `Haiti has endured years of political instability and expanding gang control, particularly around Port-au-Prince, with worsening security crisis displacing millions, weakening state authority and complicating international efforts to restore order and prepare the country for long-delayed elections. UN Secretary-General António Guterres condemned the attack, describing it as evidence of Haiti’s deteriorating security situation. The escalation also threatens preparations for Haiti’s planned elections, while continued displacement and insecurity deepen the country’s humanitarian crisis.`
+            ]
+          },
+          {
+            title: 'India-USA Signs Javelin Deal',
+            image: '/augustfinal/Picture10.png',
+            alt: 'Javelin anti-tank missile system in a production or display setting',
+            caption: 'Source: The Financial Express',
+            credit: 'The Financial Express',
+            paragraphs: [
+              `The Government of India has signed an agreement with the United States to acquire Javelin anti-tank missile systems for the Indian Army, marking another step in the deepening defence partnership between New Delhi and Washington. The agreement was confirmed by the U.S. Embassy in India, although the number of missiles and the financial value were not disclosed by Reuters. The Javelin, a medium-range, man-portable, guided missile system are designed to engage armoured vehicles and other targets. It is jointly produced by Lockheed Martin and RTX and is already used by the U.S. military and several international partners.`,
+              `India has been steadily expanding defence cooperation with the United States while diversifying its military procurement beyond traditional Russian suppliers. The Javelin acquisition comes amid efforts to modernise the Indian Army and strengthen domestic defence-industrial cooperation with Washington. U.S. Ambassador Sergio Gor described the agreement as an opportunity for greater cooperation between the two countries' defence industries. The deal could potentially facilitate future co-production in India, aligning with New Delhi's push for indigenous defence manufacturing.`
+            ]
+          },
+          {
+            title: 'India-China Boundary Talks',
+            image: '/augustfinal/Picture11.png',
+            alt: 'Indian and Chinese representatives meeting for boundary talks',
+            caption: 'Source: Sputnik India',
+            credit: 'Sputnik India',
+            paragraphs: [
+              `India and China reached an 8-point consensus on the boundary question at the 25th round of talks between special representatives led by Ajit Doval on the Indian side and Wang Yi as his Chinese counterpart. This was an important milestone ahead of the BRICS summit to be hosted in India this year.`,
+              `Key points included maintaining peace and tranquillity at the border and setting up military hotlines along the Line of Actual Control. Both sides also affirmed that an expert group on boundary delimitation and the working group on border management would advance further talks. This comes as a positive development after the deadly 2020 Galwan clash, which led to a heightened troop presence on both sides along the LAC.`
+            ]
+          },
+          {
+            title: 'Democratic Republic of Congo and M23 Rebels Agree on Peace Talks',
+            image: '/augustfinal/Picture12.png',
+            alt: 'Officials at Democratic Republic of Congo and M23 peace talks',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              `The DRC and M23 rebels held five days of peace talks in Switzerland, which also included special representatives from the African Union, the USA, Qatar, Togo, and Switzerland. The two sides agreed to implement the Doha framework reached last November and to set up a reporting mechanism to address ceasefire violations. The first verification mechanism is to take place in South Kivu.`,
+              `The conflict is linked to tensions between DR Congo and Rwanda, who accuse each other of supporting instability in each other's country, respectively. DR Congo accuses Rwanda of supporting the M23 rebels with ammunition and troops. Rwanda denies these allegations and says its troop presence is along the border only to counter terrorist threats.`
+            ]
+          },
+          {
+            title: 'Nepal Witnesses Flashfloods; Causality in 100s',
+            image: '/augustfinal/Picture13.png',
+            alt: 'Aerial view of flood damage near the Nepal-China border',
+            caption: 'Source: The Japan Times',
+            credit: 'The Japan Times',
+            paragraphs: [
+              `A catastrophic flood struck the Nepal-China border along China’s Tibet Autonomous Region on 26th August 2026 after a glacier collapse triggered a massive surge of water along the Lhende Khola and downstream rivers. Nepal’s Rasuwa district and China’s Gyirong county in Tibet were severely affected. The disaster caused huge human and infrastructural damage, with around 700 people confirmed dead and 3000 people missing. Several hydropower stations were damaged, and rescue operations are underway.`,
+              `India has agreed to provide humanitarian assistance to Nepal by supplying around 57.5 tonnes of humanitarian aid and medicines in the first phase. India has also agreed to send rescue teams and provide shelters, blankets, and hygiene kits to Nepal. China, meanwhile, has also agreed to provide humanitarian assistance by supplying 30 Bailey bridges and equipment to handle up to 2,000 bodies.`
+            ]
+          },
+          {
+            title: 'Russia Threatens UK Over British Missiles Used in Ukraine',
+            image: '/augustfinal/Picture14.png',
+            alt: 'Russian official at a press briefing about Ukraine and UK missile use',
+            caption: 'Source: Kyiv Times',
+            credit: 'Kyiv Times',
+            paragraphs: [
+              `Russia has warned that British military facilities in Ukraine and potentially elsewhere could become targets if Kyiv continues using British-supplied long-range missiles against Russian territory. Russian Foreign Ministry spokesperson Maria Zakharova accused Britain and France of “playing with fire” and said Moscow would retaliate against British military installations and equipment. The warning follows Britain’s decision to provide Ukraine with classified technology and blueprints linked to Storm Shadow missiles, enabling Ukraine to develop domestic production capabilities. Moscow has also accused Ukraine of using British Storm Shadow missiles in recent strikes, including an attack in Russian-controlled Donetsk that reportedly wounded civilians. The UK has reaffirmed its support for Ukraine. The development increases the risk of direct Russia-UK confrontation, while highlighting the broader escalation of Western involvement in Ukraine’s long-range strike capabilities.`
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
 
 export const featuredArticle: Article = {
-  ...articles.find((article) => article.id === 8)!,
+  ...articles.find((article) => article.id === 9)!,
   category: 'Featured Post',
   featured: true,
 };
