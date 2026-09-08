@@ -689,11 +689,196 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    id: 10,
+    category: 'Politics',
+    image: '/sept1/1.webp',
+    title: 'Our Home, the Globe and Around, in a Glance',
+    description: 'September 2026 briefing covering Indian public policy, global diplomacy, climate risk, security and technology governance.',
+    author: 'Editorial Desk',
+    date: 'Sep 09, 2026',
+    readTime: '24 min read',
+    content: `
+      September 2026, 1st Edition.
+
+      This edition brings together major domestic policy stories from India and key international developments shaping diplomacy, climate risk, conflict and global security.
+    `,
+    sections: [
+      {
+        heading: 'Public Policy and Domestic Affairs',
+        stories: [
+          {
+            title: 'Counterfeit Probe Launched as Drug Regulator Flags Rabies Vaccine Batch and Manufacturer Denies Production',
+            image: '/sept1/1.webp',
+            alt: 'Rabies vaccine vial on a table',
+            caption: 'Source: NDTV',
+            credit: 'NDTV',
+            paragraphs: [
+              `India’s Central Drugs Standard Control Organisation flagged a batch of the popular rabies vaccine Abhayrab as “Not of standard quality” and “misbranded” after samples failed a potency test at the Central Drugs Laboratory at Kasauli. However, manufacturer Indian Immunologicals Limited disputed the finding, stating the testing vials were counterfeit and not produced by its division, pointing to 17 physical and packaging discrepancies such as different cap colors, misspelling Louis Pasteur’s name, and unverified QR codes between the seized samples and genuine reference batches. The questionable vials were recovered from an unlicensed residential flat in Mukherjee Nagar, Delhi leading to four arrests by Delhi Police, though CDSCO and IIL confirmed that genuine doses distributed through authorized hospitals, clinics and pharmacies remain safe and fully compliant.`
+            ]
+          },
+          {
+            title: 'Bengaluru Launches City’s First “Circular Textile Lab” to Tackle Urban Garment Waste and Empower Local Women',
+            image: '/sept1/2.avif',
+            alt: 'Bengaluru textile and waste management initiative',
+            caption: 'Source: The Wire',
+            credit: 'The Wire',
+            paragraphs: [
+              `The Bengaluru’s South City Corporation is inaugurating the city’s first Circular Textile Lab alongside a Solid Waste Management (SWM) Learning Centre at its integrated waste processing facility in Koramangala. Operating out of a hub that handles 18 tonnes of daily waste, the lab aims to intercept textile discards before they reach landfills by establishing a targeted localized collection network. The initiative converts discarded fabrics into functional and creative consumer products while simultaneously training underprivileged women to provide them with sustainable, green livelihoods. By coupling community-wide waste management education with a scalable textile recycling model, Bengaluru hopes to demonstrate a practical framework for zero waste urban ecosystems that can be replicated across other wards.`
+            ]
+          },
+          {
+            title: 'SC-Appointed Panel Rejects Single Yardstick Delineation for Aravallis, Recommends Comprehensive Ecosystem Framework',
+            image: '/sept1/3.avif',
+            alt: 'Aravalli landscape and protected ecosystem area',
+            caption: 'Source: NDTV',
+            credit: 'NDTV',
+            paragraphs: [
+              `In its compliance report submitted to the Supreme Court, the high-powered committee tasked with defining the Aravalli range stated that the complex, interconnected mountain system cannot be delineated using a single terrain-based criterion, such as a strict height threshold. Pointing out that relying solely on physical elevation risks leaving vital connected forests, aquifers, and catchments unprotected, the panel proposed a holistic “Aravalli Ecosystem Landscape” framework. This multi-dimensional approach accounts for spatial, ecological, hydrological, geological, and socio-economic evidence, alongside inputs from stakeholders and local communities. To thoroughly evaluate these interrelated factors and avoid premature regulatory impacts, the committee has requested a six-month extension until late February to finalize its report.`
+            ]
+          },
+          {
+            title: 'India Plans Mandatory Battery Storage for New Solar and Wind Projects Starting July 2027',
+            image: '/sept1/4',
+            alt: 'Container port and energy infrastructure representing storage and renewable logistics',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `Under draft regulations proposed by the Central Electricity Authority, India plans to require all new solar and onshore wind projects commissioned after July 1, 2027, to include a minimum two-hour battery storage system equivalent to at least 10 per cent of their installed capacity. The mandate aims to stabilize the national power grid, prevent power curtailment, and ensure excess renewable energy generated during peak daytime hours can be dispatched when demand spikes. The regulations also mandate grid-forming inverters for these projects to help maintain grid voltage and frequency stability as the country rapidly expands its clean energy capacity.`
+            ]
+          },
+          {
+            title: 'Ladakh’s Five New Districts to Get Elected Local Councils',
+            image: '/sept1/9.jpg',
+            alt: 'Lieutenant Governor of Ladakh saluting during a public event',
+            caption: 'Source: The New Indian Express',
+            credit: 'The New Indian Express',
+            paragraphs: [
+              `Months after the Union Government approved the creation of districts in Ladakh, Lieutenant Governor Vinai Kumar Saxena on Thursday approved the notification for the creation of Ladakh Autonomous Hill Development Councils (LAHDCs) for each of them. With this, the LAHDCs, previously limited to Leh and Kargil, will now cover all seven districts of the Union Territory. This will extend elected local self-governance to the five newly created districts: Sham, Nubra, Changthang, Zanskar and Drass.`,
+              `This comes at a time when representative groups in Ladakh, like the Leh Apex Body (LAB) and the Kargil Democratic Alliance (KDA), are seeking more democratic representation, a legislature and protections for their land and environment under the sixth schedule of the Constitution. The L-G said that the establishment of the seven councils will decentralise and strengthen participatory local governance, allowing local aspirations and priorities to be reflected more effectively in district-level planning and development.`
+            ]
+          },
+          {
+            title: 'AI-Generated Art Can Get Copyright, but AI Can’t Be Recognized as Author: Copyright Office',
+            image: '/sept1/11.webp',
+            alt: 'AI-generated artwork and copyright policy concept',
+            caption: 'Source: The Indian Express',
+            credit: 'The Indian Express',
+            paragraphs: [
+              `India's Copyright Office declared that autonomously generated AI artwork can qualify for copyright protection, but the AI system itself cannot be recognized as the author. The landmark decision follows an application by American computer scientist Stephen L. Thaler, who sought to list his AI engine, DABUS, as the sole author of the artwork “A Recent Entrance to Paradise.”`,
+              `The Registrar of Copyrights deemed the artwork “original” due to its independent expressive character. However, the office rejected AI authorship because India's Copyright Act defines an author as a human “person.” The ruling emphasized that execution autonomy does not equal conception; the AI still operates within parameters established by its human creator. While some legal experts warned that allowing non-human authorship would disrupt the legal system, others welcomed the decision as reassurance that AI-assisted creative outputs remain protected under India’s existing legal framework.`
+            ]
+          }
+        ]
+      },
+      {
+        heading: 'International Relations and Affairs Around the World',
+        stories: [
+          {
+            title: 'France Denies Involvement in Niger Coup Attempt; Niger Fires Accusations',
+            image: '/sept1/5',
+            alt: 'Military personnel in a field during a security operation',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `The Government of France has rejected Niger’s accusation that Paris helped orchestrate a failed military mutiny in Niamey, in response to Niger’s government alleging that a “vast network of collusion” led by French President Emmanuel Macron’s government encouraged soldiers to attack Base 101 at Niamey’s international airport and the presidential palace on August 29. French Foreign Minister Jean-Noel Barrot denied French involvement, describing the claim as “pure fantasy,” saying Paris had neither the intention nor the means to provoke the uprising. The mutiny was suppressed after fighting spread across the capital, with Nigerien forces receiving assistance from Russia’s Africa Corps. Niger has also accused unnamed African countries and the Economic Community of West African States of supporting the attack, claims that several accused governments have sternly rejected. The unrest has exposed divisions within Niger’s military and prompted authorities to acknowledge civilian deaths for the first time.`
+            ]
+          },
+          {
+            title: 'Prominent Journalist Arrested as Saied Administration Cracks Down on Weeks-Long Tunisian Protests',
+            image: '/sept1/6.webp',
+            alt: 'Illustration of Tunisian journalist Mohamed Yousfi',
+            caption: 'Source: Business Insider',
+            credit: 'Business Insider',
+            paragraphs: [
+              `Tunisian police arrested journalist Mohamed Yousfi on September 4, according to the National Syndicate of Tunisian Journalists (SNJT), intensifying concerns over the government’s treatment of media. Yousfi, editor-in-chief of investigative outlet Al-Qatiba and a critic of President Kais Saied, was detained as he arrived at Express FM radio for a programme on Tunisia’s water crisis. Authorities transferred him to a financial crimes unit, while prosecutors opened an investigation linked to his social-media posts and journalistic work. The SNJT condemned the arrest, terming it a political witch-hunt connected to Yousfi’s sharp criticism of Saied and the authorities, and demanded his immediate release and legal safeguards. The detention comes amid a crackdown on journalists, activists and opponents, with rights groups warning of shrinking civic space. Since President Saied’s July 2021 power grab, Tunisia has experienced growing political repression, fuelling concerns over a rising culture of political persecution and fractured democratic voices.`
+            ]
+          },
+          {
+            title: 'Thousands Displaced in China Amid Intense Flooding from Saudel Landfall',
+            image: '/sept1/7.webp',
+            alt: 'Rescue workers evacuating residents through floodwater in China',
+            caption: 'Source: Azernews',
+            credit: 'Azernews',
+            paragraphs: [
+              `Saudel, the 18th typhoon of 2026, made its third landfall in China on September 3 in Zhangpu County, Fujian, bringing strong winds and heavy rainfall. According to Fujian authorities, 599,300 residents had been evacuated by night of the 4th, with emergency responses activated for both the typhoon and flooding. The storm had earlier struck neighbouring Zhejiang Province twice on August 28. Authorities have allocated 210 million yuan ($31m) for emergency rescue, disaster relief and recovery. Neighbouring Jiangxi Province was also affected, with 128,500 residents impacted and nearly 8,700 evacuated. A landslide in Suichuan County killed one person and left 11 missing, prompting rescue operations. Rescue operations are ongoing amidst crumbling buildings and dirty currents. Saudel comes latest to the continuing extreme-weather risks in southeastern China, where heavy rainfall increases the likelihood of flooding, landslides and other secondary disasters.`
+            ]
+          },
+          {
+            title: 'Pakistan Rolls Out Landmark Defence Forces of Pakistan Act and Introduces New Position',
+            image: '/sept1/8.webp',
+            alt: 'Pakistan Field Marshal Asim Munir in uniform',
+            caption: 'Source: Getty Images',
+            credit: 'Getty Images',
+            paragraphs: [
+              `Pakistan has enacted its most significant military command restructuring since 1976, granting Field Marshal Asim Munir unprecedented operational command over the country’s army, navy and air force. The Parliament’s Defence Forces of Pakistan Act, 2026, establishes the post of Chief of Defence Forces (CDF), replacing the Chairman of the Joint Chiefs of Staff Committee, which previously served primarily as a coordinating body. Munir, who remains army chief, is the first CDF and will oversee a unified Defence Forces Headquarters. The new framework also places Pakistan’s strategic command structure more firmly under army leadership, with the head of the National Strategic Command required to be an army officer. While supporters argue the reforms create a clearer chain of command and improve coordination between the three services, critics warn that concentrating authority in Munir’s hands could weaken civilian oversight and further entrench the army’s institutional dominance.`
+            ]
+          },
+          {
+            title: 'UNEP Says 1.5°C Warming Overshoot Is Now “Unavoidable”',
+            image: '/sept1/10.jpg',
+            alt: 'UNEP Limiting Overshoot report cover',
+            caption: 'Source: UNEP',
+            credit: 'UNEP',
+            paragraphs: [
+              `A new UNEP report, “Limiting Overshoot,” reveals that temporarily breaching the 1.5°C global warming target established by the Paris Agreement is now unavoidable. Even if countries fully implement their current net-zero plans, global average temperatures are expected to peak around 1.8°C above pre-industrial level. Global climate strategy must shift to approaching the 1.5°C limit “from above,” aiming to keep the peak as low and short as possible before bringing temperatures back down.`,
+              `Overshooting 1.5°C will cause severe, irreversible, and long-lasting damage. The risks of extreme heat, wildfires, and glacier loss will increase. Critical systems like the Greenland and West Antarctic ice sheets, the Amazon rainforest, and the Atlantic Meridional Overturning Circulation (AMOC) will be at risk. Reducing temperatures is exceedingly slow. Relying on afforestation and forest management alone would take more than 100 years to reduce warming by just 0.1°C.`,
+              `To manage this, the UNEP outlines a three-step response. First, rapidly cut emissions and protect vulnerable ecosystems and people. At peak warming, achieve at least net-zero emissions while managing severe global impacts. Then, sustain net-negative CO₂ emissions to actively remove carbon from the atmosphere. The burden of overshoot is also highly unequal. Developing countries, which contributed the least to emissions, face the heaviest impacts. Their adaptation funding needs are projected to exceed $310 billion annually by 2035, about 12 times greater than current international public finance flows.`
+            ]
+          },
+          {
+            title: 'S. Jaishankar’s Visit to Ukraine',
+            image: '/sept1/12.jpg',
+            alt: 'S. Jaishankar meeting Volodymyr Zelenskyy in Ukraine',
+            caption: 'Source: Ministry of External Affairs',
+            credit: 'Ministry of External Affairs',
+            paragraphs: [
+              `India’s External Affairs Minister S. Jaishankar visited Ukraine on 3 September 2026, marking the first standalone bilateral visit by an Indian External Affairs Minister. During the visit, Jaishankar met Ukrainian President Volodymyr Zelenskyy and Foreign Minister Andrii Sybiha. Discussions covered the Russia-Ukraine conflict, peace efforts, Black Sea security, food security and bilateral relations. Ukraine welcomed India's role in encouraging dialogue and efforts toward ending the conflict.`,
+              `The visit is significant because India is attempting to maintain its strategic autonomy while sustaining its longstanding partnership with Russia and simultaneously improving relations with Ukraine and Europe. Jaishankar also defended India's continued purchase of Russian oil, arguing that national interests drive India's energy decisions.`
+            ]
+          },
+          {
+            title: 'Xi-Putin Meeting at the SCO Summit',
+            image: '/sept1/13.webp',
+            alt: 'Vladimir Putin and Xi Jinping shaking hands',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              `Chinese President Xi Jinping and Russian President Vladimir Putin met during the Shanghai Cooperation Organisation (SCO) summit in Bishkek, Kyrgyzstan, amid growing competition between Russia, China and the United States. The summit brought together major Eurasian powers and provided an important platform for Beijing and Moscow to coordinate their positions on international affairs.`,
+              `China and Russia continue to emphasise the emergence of a multipolar international system and opposition to what they describe as unilateralism and external interference. Their cooperation extends across energy, defence, trade, technology and diplomatic coordination. The SCO itself is increasingly important as a platform linking China, Russia, India, Iran and Central Asian states. The meeting also comes ahead of possible future high-level US-China-Russia diplomacy, with the Kremlin indicating that a trilateral meeting involving Xi, Putin and Donald Trump could potentially take place later in the year.`
+            ]
+          },
+          {
+            title: 'Xi Jinping Visits Egypt',
+            image: '/sept1/14.jpg',
+            alt: 'Xi Jinping meeting Egyptian President Abdel Fattah el-Sisi',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `Chinese President Xi Jinping visited Egypt from 1-2 September 2026, his first visit to the country since 2016 and a significant milestone as China and Egypt mark 70 years of diplomatic relations. Xi held talks with Egyptian President Abdel Fattah el-Sisi, covering bilateral cooperation, Palestine, regional security, and the wider Middle Eastern situation.`,
+              `Xi called for Middle Eastern countries to oppose external interference and consider developing a new regional security framework. His visit comes amid continuing instability following the conflict involving the United States and Iran, allowing Beijing to expand its diplomatic influence. China and Egypt also strengthened cooperation through new agreements, while maintaining common positions on issues including Palestine, the Nile water question and Taiwan.`
+            ]
+          },
+          {
+            title: 'Denmark Sends Conscripts to Greenland as Arctic Tensions Rise',
+            image: '/sept1/15.jpg',
+            alt: 'Danish military conscripts training in Arctic conditions',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `Denmark has deployed military conscripts to Greenland for the first time in recent history, reflecting growing strategic competition in the Arctic. The move follows repeated US interest in acquiring Greenland, proposals that Denmark and Greenland have firmly rejected. Around 100 Danish conscripts are being trained for Arctic operations and are participating in Arctic Endurance, linked to NATO's expanding Arctic security activities.`,
+              `Copenhagen's increased military presence reflects concerns about defending Greenland and Denmark's sovereignty over the strategically located territory. Greenland's location between North America and Europe makes it highly important to NATO's North Atlantic and Arctic security architecture. The Arctic is also becoming an arena of competition involving Russia, NATO, the United States, and China, driven by its strategic sea routes, military significance, and natural resources. Russia remains the region's dominant military power and has criticised expanding NATO activity.`
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
 
 export const featuredArticle: Article = {
-  ...articles.find((article) => article.id === 9)!,
+  ...articles.find((article) => article.id === 10)!,
   category: 'Featured Post',
   featured: true,
 };
