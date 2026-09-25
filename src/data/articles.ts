@@ -874,11 +874,219 @@ export const articles: Article[] = [
         ]
       }
     ]
+  },
+  {
+    id: 11,
+    category: 'Politics',
+    image: '/sept2/1.jpg',
+    title: 'Our Home, the Globe and Around, in a Glance',
+    description: 'September 2026 second edition covering domestic policy, public health, climate initiatives, diplomacy, security and global affairs.',
+    author: 'Editorial Desk',
+    date: 'Sep 26, 2026',
+    readTime: '28 min read',
+    content: `
+      September 2026, 2nd Edition.
+
+      This edition is organised into Domestic News and International News, bringing together major developments in Indian governance, public policy, health, education, digital regulation and global affairs.
+    `,
+    sections: [
+      {
+        heading: 'Domestic News',
+        stories: [
+          {
+            title: 'Supreme Court Directs Tamil Nadu to Identify Land for Navodaya Schools, Urges State to Change Mindset on Three-Language Policy',
+            image: '/sept2/1.jpg',
+            alt: 'News graphic on Tamil Nadu and Navodaya schools before the Supreme Court',
+            caption: 'Source: Deccan Herald',
+            credit: 'Deccan Herald',
+            paragraphs: [
+              `The Supreme Court has granted the Tamil Nadu government three months to identify suitable land in every district for setting up centrally run Jawahar Navodaya Vidyalayas, while urging the state to reconsider its rigid opposition to the school's three-language formula and the teaching of Hindi. While Tamil Nadu argues that the scheme conflicts with its statutory two-language policy, Tamil and English, and infringes on state authority over education under the Concurrent List, the Apex Court emphasized expanding rural educational opportunities and asked both the Centre and the state to resolve their political, language and funding disputes through separate bilateral discussions.`
+            ]
+          },
+          {
+            title: 'Centre and States Unite on Mobilizing Capital and Private Investment for Viksit Bharat Roadmap',
+            image: '/sept2/2.jpg',
+            alt: 'Indian growth concept with arrows and national flag',
+            caption: 'Source: Mint',
+            credit: 'Mint',
+            paragraphs: [
+              `The inaugural two-day conference of State Finance Ministries and Secretaries, organized by the Union Ministry of Finance under the theme "Financing India's Journey towards Viksit Bharat", concluded with a strong call for Centre-State coordination and greater private capital mobilization to fuel long-term economic goals.`,
+              `Chaired alongside key economic leaders and policy experts, the deliberations focused on macroeconomic outlooks, raising capital expenditure and securing specialized funding for agricultural transformation and energy transition assets. Officials emphasized that realizing the Vision 2047 targets cannot rely solely on government budget, urging state governments to boost public investment efficiency, deregulate and create attractive environments for private sector investment in the spirit of "Team India".`
+            ]
+          },
+          {
+            title: 'Karnataka Launches 25-Crore Government First Scheme to Fund Startup Pilots in Public Sector',
+            image: '/sept2/3.jpg',
+            alt: 'Karnataka official speaking during a startup policy discussion',
+            caption: 'Source: The Hindu',
+            credit: 'The Hindu',
+            paragraphs: [
+              `Under its new Government First initiative, launched as part of the Karnataka Startup Policy 2025-30, the Karnataka government is allocating Rs 25 crore over three years to support roughly 100 startups with pilot funding of up to Rs 25 lakh each. Designed to turn the state into an early customer for home-grown technology, the program allows deployment-ready startups in sectors like AI, healthcare, mobility and digital governance to test their solutions directly within government departments. Innovators can either solve posted departmental challenges or propose their own proprietary products, without needing prior public sector experience, while retaining full ownership of their intellectual property. Successful pilots will be evaluated on measurable outcomes, opening a direct pathway to broader government procurement and public-scale deployment.`
+            ]
+          },
+          {
+            title: 'CJP Launches Adivasi School Theek Karo Drive in Maharashtra to Tackle Tribal Education Crisis',
+            image: '/sept2/4.jpg',
+            alt: 'CJP founder Abhijeet Dipke arriving at a public campaign event',
+            caption: 'Source: The Hindu',
+            credit: 'The Hindu',
+            paragraphs: [
+              `The Cockroach Janta Party (CJP), led by founder Abhijeet Dipke, launched its ground-level "Adivasi School Theek Karo" campaign from Maharashtra's Gadchiroli district on September 17. Functioning as an extension of CJP's broader public school inspection initiative, the drive deploys representatives to conduct on-site audits of infrastructure, sanitation and safety standards across tribal residential schools and ashramshalas. Highlighting institutional neglect, Dipke pointed to critical gaps such as non-functional Eklavya Model Residential Schools and inadequate facilities while raising urgent concerns over student safety, following the deaths of more than 590 tribal students in Maharashtra over the past two years, many from preventable causes like snakebites. The initiative aims to hold local authorities accountable and demand equitable education standards for indigenous children across the region.`
+            ]
+          },
+          {
+            title: 'India to Launch Its First Approved Dengue Vaccine in 2027',
+            image: '/sept2/5.jpg',
+            alt: 'Dengue vaccine vials held by a healthcare worker',
+            caption: 'Source: The Indian Express',
+            credit: 'The Indian Express',
+            paragraphs: [
+              `Qdenga is India's first approved dengue vaccine developed by Takeda Pharmaceutical Company. It received marketing authorization from CDSCO in July 2026 and is expected to launch in the private market during the first half of 2027. Dr. Reddy's Laboratories will exclusively promote and distribute the vaccine for individuals aged 4 to 60 years. It will be delivered as a two-dose course, 0.5 mL subcutaneously, administered three months apart. It requires no blood testing or pre-vaccination screening, making it accessible regardless of prior dengue exposure. It is formulated using a weakened DENV-2 backbone alongside structural proteins from serotypes DENV-1, DENV-3, and DENV-4.`,
+              `Long-term analysis shows 61.2% efficacy against virologically confirmed dengue and 84.1% efficacy against hospitalizations at 4.5 years. Takeda also aims for future inclusion in India's Universal Immunization Programme. Common trial reactions include injection site pain, redness, headache, muscle pain and fever. Traditional mosquito control and bite prevention will remain essential alongside vaccination.`
+            ]
+          },
+          {
+            title: 'Bharat Vann Green Initiative Launched at Lodhi Colony Park',
+            image: '/sept2/6.png',
+            alt: 'Union Finance Minister Nirmala Sitharaman participating in a tree planting event',
+            caption: 'Source: DD News',
+            credit: 'DD News',
+            paragraphs: [
+              `Union Finance Minister Nirmala Sitharaman inaugurated New Delhi's Lodhi Colony's first Miyawaki forest to promote urban ecological restoration and expand green cover in the national capital. This Bharat Vann green initiative will add a dense urban forest to a neighborhood already celebrated for its clean streets and art district. It is developed in collaboration with the New Delhi Municipal Council. The launch commemorated the 76th birthday of Prime Minister Narendra Modi and was part of the Ek Ped Maa Ke Naam campaign to drive public participation in tree planting.`,
+              `It applies the Miyawaki method, a technique created by Japanese botanist Akira Miyawaki in the 1970s to cultivate small, dense micro-forests using native trees and shrubs. By planting indigenous species tailored to New Delhi's local climate, the forest enhances city greenery while providing residents with a dedicated natural area for walking, meditation and yoga. The Miyawaki technique is gaining momentum across India too.`
+            ]
+          },
+          {
+            title: 'The Government Launches DILRMP 3.0',
+            image: '/sept2/7.png',
+            alt: 'Rural land and road infrastructure representing digital land record modernization',
+            caption: 'Source: The Times of India',
+            credit: 'The Times of India',
+            paragraphs: [
+              `Union Rural Development Minister Shivraj Singh Chouhan launched operational guidelines for the Digital India Land Records Modernisation Programme (DILRMP 3.0). It is backed by a Rs 565.5 crore outlay for 2026-31. The initiative moves from basic record digitisation toward an integrated land management framework by interconnecting existing government databases.`,
+              `These guidelines entail some key features and changes. States will build state-level digital land stacks linking records, cadastral maps and registration systems via APIs to form a federated national stack, while state authorities retain data ownership. Every land parcel will be assigned a 14-digit Unique Land Parcel Identification Number, or Bhu-Aadhaar, supported by fully georeferenced cadastral maps. The NAKSHA initiative will handle urban land mapping and property cards. Furthermore, 75 high-footfall sub-registrar offices will be modernized into Registration Seva Kendras. Building upon earlier phases that digitised 99.9% of rights records and 97% of cadastral maps, DILRMP 3.0 features 100% central funding across all states and Union territories. Performance-based fund releases will be tracked on a real-time DILRMP-MIS dashboard, facilitating easier access to institutional credit and reducing government office visits for landowners.`
+            ]
+          },
+          {
+            title: 'Consumer Protection (E-Commerce) (Amendment) Rules, 2026',
+            image: '/sept2/8.png',
+            alt: 'Online shopping and e-commerce regulation concept',
+            caption: 'Source: The Times of India',
+            credit: 'The Times of India',
+            paragraphs: [
+              `The Indian government has amended the Consumer Protection (E-Commerce) Rules, 2020, originally notified under the Consumer Protection Act, 2019. The updated framework, Consumer Protection (E-Commerce) (Amendment) Rules, 2026, will come into force on January 1, 2027.`,
+              `The amendments tighten regulations governing online marketplaces by focusing on price transparency and search displays, imposing stricter standards on how platforms present product prices, search rankings and sponsored content. They also set tighter controls against deceptive design practices and dark patterns that manipulate consumers.`,
+              `The rules impose greater obligations on e-commerce platforms regarding data usage and the resolution of consumer complaints, while strengthening disclosure mandates for products and imported goods and curbing additional charges for services unrelated to the actual e-commerce transaction. These changes aim to foster a fairer online retail environment with improved transparency and consumer protections.`
+            ]
+          }
+        ]
+      },
+      {
+        heading: 'International News',
+        stories: [
+          {
+            title: 'US-China Weigh LNG Tariff Cuts Ahead of Xi Visit',
+            image: '/sept2/9.jpg',
+            alt: 'Donald Trump and Xi Jinping seated during a diplomatic meeting',
+            caption: 'Pic Credit: World Economic Forum',
+            credit: 'World Economic Forum',
+            paragraphs: [
+              `The United States and China are discussing reducing or removing Beijing's 15% tariff on U.S. liquefied natural gas ahead of Chinese President Xi Jinping's expected visit to Washington on September 24. The Jinping administration had imposed the LNG tariff in February 2025 in retaliation for U.S. duties on Chinese imports, effectively halting bilateral LNG trade. The upcoming discussions could reopen China, the world's largest LNG importer, as a major market for U.S. producers, which are expanding export capacity by about 10 billion cubic feet per day through 2027. Currently, nearly 24.5 million metric tonnes of U.S. LNG capacity under construction remains without long-term buyers. Despite the existing tariff, recent shipments to China suggest that trade is already beginning to recover. However, the proposed tariff reductions remain under negotiation and are not yet final. The proposal forms part of a broader framework in which both countries could reduce tariffs on around $30 billion worth of goods.`
+            ]
+          },
+          {
+            title: '100,000+ Displaced as Houthi Red Sea Coast Campaign Intensifies',
+            image: '/sept2/10.jpg',
+            alt: 'Displaced people gathered in a shelter area in Yemen',
+            caption: 'Pic Credit: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `At least 112,000 people have been displaced within Yemen over the past two weeks as fighting intensifies along the country's western coast, according to the UN's International Organization for Migration. The escalation involves Iran-aligned Houthi forces, which have advanced along Yemen's Red Sea coast towards the Bab el-Mandeb Strait, while Saudi and Yemeni government forces have conducted airstrikes against Houthi positions. UN agencies reported that many refugees are arriving in overcrowded boats with limited food and water. Nearly 3,000 people have also crossed the Gulf of Aden to Djibouti, fleeing the renewed violence. Djibouti is preparing for up to 10,000 arrivals, placing additional pressure on its healthcare and education systems. The fighting has further aggravated Yemen's already severe humanitarian crisis, following years of civil war and economic and infrastructural damage.`
+            ]
+          },
+          {
+            title: 'USA and Denmark Reach New Deal; Provisions of 1951 Defence Agreement to Be Broadened',
+            image: '/sept2/11.jpg',
+            alt: 'U.S. President Donald Trump meeting Danish Prime Minister Mette Frederiksen',
+            caption: 'Pic Credit: Wikipedia',
+            credit: 'Wikipedia',
+            paragraphs: [
+              `The United States and Denmark have reached an agreement to expand the U.S. military presence in Greenland, while preventing American adversaries from establishing military bases or making sensitive investments on the Arctic island, U.S. President Donald Trump stated on September 18. The agreement provides Washington with permanent access, basing and overflight rights while extending the existing 1951 U.S.-Danish defence framework. Further, it also reportedly restricts non-NATO countries from establishing military facilities or making certain strategic investments in Greenland. The exact scope of the agreement, including whether additional U.S. bases will be constructed, remains unclear. While the deal falls short of Trump's earlier ambition to acquire Greenland, Danish and Greenlandic leaders have described the arrangement as strengthening Arctic and North Atlantic security while recognising Greenland's interests. The agreement is also intended to address U.S. concerns about strategic competition in the Arctic, particularly potential Chinese and Russian involvement.`
+            ]
+          },
+          {
+            title: 'Medical Teams Make Hopeful Progress in Race Against Time as DRC Ebola Pandemic Remains Uncontrolled',
+            image: '/sept2/12.jpg',
+            alt: 'Health worker taking a temperature during an Ebola response in the DRC',
+            caption: 'Pic Credit: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `The World Health Organization said on September 16 that efforts to contain the Ebola outbreak in the Democratic Republic of Congo are showing progress, particularly in the worst-affected Ituri province, but warned that the epidemic remains far from over. More than 7,200 cases and 3,500 deaths have been reported across seven provinces. WHO Director-General Tedros Adhanom Ghebreyesus said transmission has declined in parts of Ituri, but around 300 new cases and 160 deaths were recorded there in the previous week alone. The response has been strengthened through expanded surveillance, contact tracing and vaccination, with more than 3,000 frontline workers vaccinated. However, the outbreak continues to spread in areas including North Kivu, where high population mobility and difficult terrain complicate containment. WHO officials warned that sustained international support will be required for several more months.`
+            ]
+          },
+          {
+            title: 'Algeria Cuts Diplomatic Ties with UAE',
+            image: '/sept2/13.png',
+            alt: 'United Arab Emirates and Algerian leaders shown side by side',
+            caption: 'Source: Al Jazeera',
+            credit: 'Al Jazeera',
+            paragraphs: [
+              `Algeria announced on 10 September 2026 that it was severing diplomatic relations with the United Arab Emirates, citing what its Foreign Ministry described as a series of "provocative and hostile" actions by Abu Dhabi. Algiers said it had repeatedly warned the UAE and exhausted diplomatic efforts to preserve bilateral relations. Algeria summoned the Emirati ambassador and gave it 48 hours to comply with the decision. Algeria later announced restrictions on UAE-registered aircraft, though it temporarily exempted existing commercial flight arrangements.`,
+              `The dispute reflects wider disagreements between the two Arab states over regional politics and competing approaches to conflicts in North Africa and the Middle East. The UAE said it hoped the diplomatic rupture would be temporary. The development is significant because both countries are influential actors in the Arab world and North Africa. The breakdown could affect diplomatic coordination, economic relations and their respective positions on regional conflicts.`
+            ]
+          },
+          {
+            title: 'USA Approves F-35 Sale to Saudi Arabia',
+            image: '/sept2/14.jpg',
+            alt: 'F-35 fighter jets flying in formation',
+            caption: 'Source: CNN',
+            credit: 'CNN',
+            paragraphs: [
+              `The United States has approved a $24.3 billion possible sale of 48 F-35 fighter jets to Saudi Arabia, marking a major development in Washington-Riyadh defence relations. The US State Department said the proposed sale would strengthen Saudi Arabia's ability to deter threats and improve interoperability with US forces. Saudi Arabia has sought the advanced fifth-generation aircraft for years. The package reportedly includes 48 F-35 aircraft and associated equipment and engines. The proposed transaction still involves the US congressional notification process.`,
+              `The decision has wider implications for the Middle East's military balance. Israel is currently the only Middle Eastern operator of the F-35, and Israeli officials have expressed concerns about maintaining their qualitative military edge. The sale comes amid heightened regional tensions involving Iran, Saudi Arabia and the Yemen conflict. Washington's decision therefore represents both a major defence-industrial agreement and an important element of US strategic engagement with Saudi Arabia.`
+            ]
+          },
+          {
+            title: 'Houthis Capture Strategic Yemeni Town of Mokha',
+            image: '/sept2/15.jpg',
+            alt: 'Armed Houthi fighters gathered during a military campaign',
+            caption: 'Source: Reuters',
+            credit: 'Reuters',
+            paragraphs: [
+              `Yemen's Houthi movement captured the strategically important Red Sea port city of Mocha, or Al Mokha, on 10 September 2026 after government forces withdrew. The development expands Houthi control along Yemen's western coastline and brings the group closer to the Bab el-Mandeb Strait, one of the world's major maritime chokepoints. Reports also indicated further Houthi advances along the Red Sea coast and control of strategically important islands. The developments represent a significant change in the territorial balance of Yemen's prolonged civil war.`,
+              `The capture is particularly important for international security because Bab el-Mandeb connects the Red Sea with the Gulf of Aden and is a major route for international shipping between Europe and Asia. Greater Houthi control of the coastline could increase pressure on commercial shipping and regional actors, particularly Saudi Arabia. It also strengthens the group's strategic position in a conflict that has increasingly become connected to wider Middle Eastern tensions involving Iran, Israel and the United States.`
+            ]
+          },
+          {
+            title: 'China Opens Major Pinglu Canal',
+            image: '/sept2/16.jpg',
+            alt: 'The Pinglu Canal in Guangxi with a bridge and cargo vessel',
+            caption: 'Source: South China Sea Morning Post',
+            credit: 'South China Sea Morning Post',
+            paragraphs: [
+              `China opened the 134.2-kilometre Pinglu Canal in Guangxi on 16 September 2026, creating a new river-to-sea route connecting China's inland waterways with the Beibu Gulf. The canal allows larger vessels to move between the Xijiang River system and the sea, creating a shorter maritime connection for southwestern China. Reports indicate that the project cost around 72.7 billion yuan, approximately $10.7 billion. It is expected to reduce transportation distances by more than 500 kilometres for some cargo movements.`,
+              `The canal has major economic and geopolitical significance because it strengthens China's connectivity with Southeast Asia and ASEAN markets. It provides inland provinces with a more direct route to international maritime trade and could reduce dependence on longer routes through the Pearl River Delta. Strategically, the project demonstrates China's continuing investment in multimodal infrastructure and regional connectivity. Alongside railways, ports and the Belt and Road Initiative, the canal could strengthen China's position as a major logistics hub linking southwestern China with global trade networks.`
+            ]
+          },
+          {
+            title: 'Michelle Bachelet Withdraws from UN Secretary-General Race',
+            image: '/sept2/17.jpg',
+            alt: 'Michelle Bachelet portrait in front of a United Nations flag',
+            caption: 'Source: BBC',
+            credit: 'BBC',
+            paragraphs: [
+              `Former Chilean President and former UN human rights chief Michelle Bachelet has withdrawn her candidacy to become the next United Nations Secretary-General. Bachelet announced her decision on 20 September 2026, ending her campaign to succeed Antonio Guterres, whose second term expires on 31 December 2026. Her withdrawal followed a third informal UN Security Council straw poll in which her support had reportedly declined. Seven candidates remain in the race, although additional candidates could still enter the process.`,
+              `The selection of the next Secretary-General is significant because the UN leadership will face major challenges involving conflicts in the Middle East and Ukraine, multilateral cooperation and emerging issues such as artificial intelligence. The UN Security Council will eventually recommend one candidate to the 193-member General Assembly, which formally appoints the Secretary-General. Bachelet had presented her campaign around multilateralism and international law. Her withdrawal changes the field of candidates as member states continue negotiations over the organisation's next leadership.`
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
 
 export const featuredArticle: Article = {
-  ...articles.find((article) => article.id === 10)!,
+  ...articles.find((article) => article.id === 11)!,
   category: 'Featured Post',
   featured: true,
 };

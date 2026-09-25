@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import LatestArticles from './components/LatestArticles';
 import Footer from './components/Footer';
 import ArticlePage from './components/ArticlePage';
+import BookPicks, { BookPicksEdition } from './components/BookPicks';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -30,6 +31,10 @@ function App() {
 
           {/* Article Page */}
           <Route path="/article/:id" element={<ArticlePage />} />
+
+          {/* Bookpicks Page */}
+          <Route path="/bookpicks" element={<BookPicks />} />
+          <Route path="/bookpicks/september" element={<BookPicksEdition />} />
 
         </Routes>
       </div>
